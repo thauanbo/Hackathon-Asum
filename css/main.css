@@ -1,0 +1,179 @@
+/* nav */
+nav {
+    height: 7vh;
+}
+header {
+    background-color: #E8D1C3;
+    margin-bottom: 3vh;
+}
+/* body color */
+body {
+    background-color: #f3e7dfe8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* imagem nav */
+.center-img-cont {  
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.container-img-center {
+    padding-top: 80px;
+}
+/* section-lado-a-lado */
+section .section-inicial {
+    margin-top: 3vh;
+}
+section .col-border {
+    border-bottom: 5px black;
+}
+section .section-produtos {
+    display: flex;
+}
+.section-produtos button a {
+    text-decoration: none;
+    color: #10769B;
+}
+.section-produtos button {
+    color: #e1eaee;
+    background-color: #e2e5e6;
+    border: none;
+}
+.section-produtos button:hover {
+    background-color: #ffffff;
+    border: 2px black;
+}
+.section-produtos img {
+    width: 20%;
+    border-radius: 50%;
+}
+/* section back-cover */
+.photo-divisor {
+    margin-bottom: 3vh;
+}
+.photo-divisor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+h1 {
+    text-align: center;
+    color: #10769B;
+    background-color: #E8D1C3;
+}
+.section-produtos div {
+    display: inline;
+}
+
+/* artigos */
+.txtartigos {
+    text-align: center;
+    font-family: Sans-serif, Serif;
+    font-size: 40px;
+    color: rgb(3, 3, 12);
+}
+.textoartigo {
+    font-family: 'Lucida Sans Regular', serif;
+}
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.artigos {
+    margin-top: 7%;
+    background-color: rgb(233, 227, 227);
+    padding-bottom: 10%;
+}
+.flexartigos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    object-fit: cover;
+}
+.cardartigos {
+    border: 2px black;
+    box-shadow: 6px 6px 8px 4px rgba(0,0,0,0.2);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+/* Compra */
+.cardartigos a { 
+    text-decoration: none;
+    color: #6e6c6c;
+}
+  .cardartigotxt {
+    padding: 10px 16px;
+}
+h4 {
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px black;
+}
+/* sobre */
+.texto-sobre {
+    margin-top: 10px;
+}
+#img-musa-sobre {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/* portifolio */
+#parag1 a {
+    text-decoration: none;
+    color: #E8D1C3;
+}
+/* Login */
+form {
+    text-align: center;
+    margin: 20% 20%;
+}
+form a {
+    text-decoration: none;
+    color: #10769B;
+}
+#img-form {
+    border-radius: 50%;
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+     /* imagem nav */
+     .navbar-brand {
+        display: none;
+    }
+    .responsive-nav {
+        padding: auto;
+    }
+    .section-produtos img {
+        width: 20%;
+        border-radius: 50%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .carousel-tamanho {
+        width: 50%;
+        height: 50%;
+    }
+    .col-border {
+        margin-left: 20%;
+    }
+    .photo-divisor {
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    form {
+        text-align: center;
+        margin-top: 2%;
+    }
+}
